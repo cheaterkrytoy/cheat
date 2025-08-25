@@ -1,0 +1,9 @@
+void DrawESP() {
+    glColor3f(0.5f, 0.0f, 0.5f); // Фиолетовый цвет
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(x1, y1);
+    glVertex2f(x2, y2);
+    glVertex2f(x3, y3);
+    glVertex2f(x4, y4);
+    glEnd();
+}
